@@ -1,0 +1,28 @@
+# Binaries, test output, and the build directory
+target/
+debug/
+release/
+
+# If you happen to store binaries anywhere else:
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Cargo-specific files
+Cargo.lock
+
+# Ignore backups and other hidden files
+*.rs.bk
+
+# If you’re using the Rust Language Server or other tools generating lock files:
+*.rls.lock
+
+# IDE/Editor-specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Mac-specific metadata files
+.DS_Store
